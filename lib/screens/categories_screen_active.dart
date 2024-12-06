@@ -16,11 +16,13 @@ class Categories_data_actives extends StatelessWidget {
       ),
       children: Categories_data_active.map(
         (categoryData) => CategoryItem(
+          
           categoryData.id,
           categoryData.title,
           categoryData.imageUrl,
           categoryData.sup_title,
           categoryData.detail,
+          true
 
         ),
       ).toList(),

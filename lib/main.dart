@@ -111,7 +111,7 @@ class _MyAppState extends State<MyApp> {
       supportedLocales: [
         const Locale('ar', 'AE'), // English, no country code
       ],
-      title: 'Travel App',
+      title: 'لفة المملكة',
       theme: ThemeData(
           primarySwatch:createMaterialColor(Color(0xFFB57EDC)),
           accentColor: Color(0xFFB57EDC),
